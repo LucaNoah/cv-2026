@@ -6,12 +6,15 @@ Gehostet über **GitHub Pages**.
 ## Struktur
 
 ```
-index.html          ← die eigentliche Website (Startseite)
+index.html          ← die Website (Vorlage „Technician – Light“)
+CLAUDE.md           ← Projektanleitung für Claude Code in VS Code
+INHALTE.md          ← deine CV-Inhalte (ausfüllen!)
 assets/
   css/style.css     ← Haupt-Stylesheet (aus SCSS kompiliert)
   scss/             ← SCSS-Quelldateien (optional, für grössere Design-Anpassungen)
   js/main.js        ← Template-JavaScript (Kontaktformular → Formspree)
-  images/           ← Bilder (Demo-Bilder durch eigene ersetzen!)
+  images/           ← Platzhalterbilder
+  images/eigene/    ← deine eigenen Bilder
 _vorlagen/          ← alle anderen Demo-Varianten & Elemente zum Abschauen
 ```
 
@@ -43,7 +46,6 @@ Die Demos findest du unter `http://localhost:8000/_vorlagen/<datei>.html`.
 
 ## Vor dem Go-live
 
-- [ ] Gewünschte Demo-Variante als `index.html` übernehmen
 - [ ] Texte, CV-Daten, Links ersetzen
 - [ ] Demo-Bilder durch eigene ersetzen (Demo-Bilder sind **nicht** lizenziert!)
 - [ ] Nicht genutzte Sektionen entfernen
