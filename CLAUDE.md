@@ -26,7 +26,7 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 - **Profilkarte**: Foto (190×190), Name + Berufsbezeichnung (Desktop zentriert via custom.css),
   Infos (Email, Birthday, Phone, Location). Social-Icons wurden auf Lucas Wunsch entfernt.
 - **Tab-Navigation** (vertikal Desktop / unten fixiert auf Mobile):
-  1. **About** (`#v-pills-Javascript`) – Über-mich-Text (volle Breite, Bild entfernt), Liste, „What I am Doing“, Brand-Logos
+  1. **About** (`#v-pills-Javascript`) – Über-mich-Text (volle Breite, Bild entfernt), Liste, „What I am Doing“ (Brand-Logos „Our trusted Clients“ entfernt)
   2. **Resume** (`#v-pills-Design`) – „Education Quality“, „Job Experience“, „Design Skill“
      und „Development“ (Progressbars)
   3. **Work** (`#v-pills-Wordpress`) – Portfolio-Karten (800×600) mit Modal
@@ -34,6 +34,7 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
   5. **Contact** (`#v-pills-python`) – Kontaktinfos + Formular
 - Die Tab-IDs sind historisch falsch benannt (z. B. „Javascript“ = About) – nicht verwirren lassen.
   Umbenennen ist ok, dann aber `id`, `href` und `aria-*` konsistent mitändern.
+- Footer („All rights reserved“ + InBio-Logo) wurde entfernt; Abstand am Seitenende via custom.css.
 - Am Ende: Modals für Portfolio/Blog und das **Demo-Switcher-Modal** („DEMOS“-Leiste rechts).
 
 ## Aufgaben (To-do)
@@ -42,7 +43,6 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 3. Template-Ballast entfernen:
    - Demo-Switcher („DEMOS“-Leiste + zugehöriges Modal mit allen Demo-Links)
    - Blog-Tab inkl. Modals, falls nicht gebraucht
-   - Brand-/Kundenlogos, „Our trusted clients“ u. ä.
    - Platzhalter-Sektionen, für die es in `INHALTE.md` keine Inhalte gibt
 4. `<title>`, `<meta name="description">`, Favicon (`assets/images/favicon.ico`), `lang`-Attribut anpassen.
 5. Kontaktformular: `action="https://formspree.io/f/DEINE-FORM-ID"` mit Lucas Formspree-ID ersetzen.

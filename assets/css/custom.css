@@ -20,3 +20,14 @@
     padding-bottom: 30px;
   }
 }
+
+/* Abstand am Seitenende (Footer wurde entfernt).
+   Mobile: zusätzlich Platz für die unten fixierte Tab-Leiste */
+.rn-content-wrapper {
+  padding-bottom: 80px;
+}
+@media only screen and (max-width: 991px) {
+  .rn-content-wrapper {
+    padding-bottom: 120px;
+  }
+}
