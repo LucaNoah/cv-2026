@@ -29,18 +29,17 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
   1. **About** (`#v-pills-Javascript`) – Über-mich-Text (volle Breite, Bild entfernt), Liste, „What I am Doing“ (Brand-Logos „Our trusted Clients“ entfernt)
   2. **Resume** (`#v-pills-Design`) – „Education Quality“, „Job Experience“, „Design Skill“
      und „Development“ (Progressbars)
-  3. **Contact** (`#v-pills-python`) – Kontaktinfos + Formular
+  3. **Contact** (`#v-pills-python`) – nur das Formular (volle Breite; Kontaktkarte links entfernt)
   (Work- und Blog-Tab inkl. Modals wurden auf Lucas Wunsch komplett entfernt – nur About, Resume, Contact.)
 - Die Tab-IDs sind historisch falsch benannt (z. B. „Javascript“ = About) – nicht verwirren lassen.
   Umbenennen ist ok, dann aber `id`, `href` und `aria-*` konsistent mitändern.
-- Footer („All rights reserved“ + InBio-Logo) wurde entfernt; Abstand am Seitenende via custom.css.
-- Am Ende: das **Demo-Switcher-Modal** („DEMOS“-Leiste rechts).
+- Template-Footer und Demo-Switcher wurden entfernt. Stattdessen eigener kleiner Footer
+  (`<footer class="cv-footer">`, Styles in custom.css).
 
 ## Aufgaben (To-do)
 1. Texte aus `INHALTE.md` einsetzen (Profil, About, Resume, Skills, Kontakt).
 2. Bilder aus `assets/images/eigene/` einbinden, ungenutzte Platzhalter entfernen.
 3. Template-Ballast entfernen:
-   - Demo-Switcher („DEMOS“-Leiste + zugehöriges Modal mit allen Demo-Links)
    - Platzhalter-Sektionen, für die es in `INHALTE.md` keine Inhalte gibt
 4. `<title>`, `<meta name="description">`, Favicon (`assets/images/favicon.ico`), `lang`-Attribut anpassen.
 5. Kontaktformular: `action="https://formspree.io/f/DEINE-FORM-ID"` mit Lucas Formspree-ID ersetzen.

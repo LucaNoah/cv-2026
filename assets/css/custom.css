@@ -21,13 +21,29 @@
   }
 }
 
-/* Abstand am Seitenende (Footer wurde entfernt).
-   Mobile: zusätzlich Platz für die unten fixierte Tab-Leiste */
+/* Abstand zwischen Inhalt und Footer */
 .rn-content-wrapper {
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
+
+/* Kleiner Footer am Seitenende */
+.cv-footer {
+  border-top: 1px solid #dce1e4;
+  padding: 30px 0;
+  text-align: center;
+}
+.cv-footer-text {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-body);
+  letter-spacing: 0.3px;
+}
+/* Mobile: Platz für die unten fixierte Tab-Leiste */
 @media only screen and (max-width: 991px) {
   .rn-content-wrapper {
-    padding-bottom: 120px;
+    padding-bottom: 40px;
+  }
+  .cv-footer {
+    padding-bottom: 110px;
   }
 }
