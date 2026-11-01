@@ -1,0 +1,22 @@
+/* ==========================================================
+   Eigene Anpassungen (Luca Gfeller) – überschreibt style.css
+   ========================================================== */
+
+/* Profilkarte: Name + Untertitel im Bereich zwischen Foto und
+   Trennlinie zentrieren (nur Desktop; Mobile/Tablet ist bereits zentriert) */
+@media only screen and (min-width: 1200px) {
+  .rn-content-wrapper .header-left .header-info-content {
+    flex: 1;
+    text-align: center;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+}
+
+/* Mobile/Tablet: Abstand unter dem Untertitel (ersetzt den Platz der
+   entfernten Social-Icons) */
+@media only screen and (max-width: 1199px) {
+  .rn-content-wrapper .header-left .header-info-content {
+    padding-bottom: 30px;
+  }
+}

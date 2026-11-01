@@ -10,8 +10,9 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 
 ## Struktur
 - `index.html` – die Website (einzige Seite, Tab-basiert)
-- `assets/css/style.css` – kompiliertes Haupt-CSS. **Direkt hier ändern** oder besser eigene
-  Anpassungen in `assets/css/custom.css` sammeln (anlegen und nach `style.css` einbinden).
+- `assets/css/style.css` – kompiliertes Template-CSS (nur Farbvariablen unter `:root` angepasst).
+- `assets/css/custom.css` – **eigene Anpassungen hier sammeln** (wird nach `style.css` geladen
+  und überschreibt es). Jede Regel mit kurzem Kommentar versehen.
   Das SCSS in `assets/scss/` ist nur Referenz; es gibt keinen Build-Prozess.
 - `assets/js/main.js` – Template-JS (jQuery). Kontaktformular sendet per AJAX an Formspree.
 - `assets/images/` – Platzhalterbilder (graue Flächen mit Massangaben). Lucas eigene Bilder
@@ -22,10 +23,10 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 
 ## Aufbau von index.html (Technician-Layout)
 - **Header-Banner** (`.bg_image--9`, Bild per CSS: `assets/images/eigene/banner.jpg`, Bagger bei Sonnenaufgang, 350px hoch, `background-size: cover`)
-- **Profilkarte**: Foto (190×190), Name, Berufsbezeichnung, Social-Icons,
-  Infos (Email, Birthday, Phone, Location) – ca. Zeile 30–95
+- **Profilkarte**: Foto (190×190), Name + Berufsbezeichnung (Desktop zentriert via custom.css),
+  Infos (Email, Birthday, Phone, Location). Social-Icons wurden auf Lucas Wunsch entfernt.
 - **Tab-Navigation** (vertikal Desktop / unten fixiert auf Mobile):
-  1. **About** (`#v-pills-Javascript`) – Foto 500×664, Über-mich-Text, Liste, Kennzahlen, Brand-Logos
+  1. **About** (`#v-pills-Javascript`) – Über-mich-Text (volle Breite, Bild entfernt), Liste, „What I am Doing“, Brand-Logos
   2. **Resume** (`#v-pills-Design`) – „Education Quality“, „Job Experience“, „Design Skill“
      und „Development“ (Progressbars)
   3. **Work** (`#v-pills-Wordpress`) – Portfolio-Karten (800×600) mit Modal
