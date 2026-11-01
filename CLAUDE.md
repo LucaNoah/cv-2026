@@ -50,9 +50,9 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 
 ## Design-Entscheidungen
 - Luca bewirbt sich als **Baumaschinenmechaniker** – Bildsprache und Texte darauf ausrichten.
-- **Akzentfarbe: Orange `#d95f0e`** (statt Template-Pink `#ff014f`), passend zum Banner.
-  Definiert in `assets/css/style.css` unter `:root` (`--color-primary`, `--color-subtitle: #c4530b`,
-  `--gradient-red-hover: #d95f0e → #a8440a`). Neue Elemente immer mit diesen Variablen einfärben.
+- **Akzentfarbe: Orange `#bf6a1a`** (statt Template-Pink `#ff014f`), passend zum Banner.
+  Definiert in `assets/css/style.css` unter `:root` (`--color-primary`, `--color-subtitle: #a85a14`,
+  `--gradient-red-hover: #bf6a1a → #8f4a10`). Neue Elemente immer mit diesen Variablen einfärben.
 - Profilbild: `assets/images/eigene/profil.jpg` (400×400, grauer Kachelhintergrund).
 
 ## Regeln
