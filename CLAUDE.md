@@ -21,7 +21,7 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 - `INHALTE.md` – Lucas CV-Inhalte. **Das ist die Quelle für alle Texte.**
 
 ## Aufbau von index.html (Technician-Layout)
-- **Header-Banner** (`.bg_image--9`, Bild per CSS: `assets/images/bg/bg-image-9.jpg`, 1920×350)
+- **Header-Banner** (`.bg_image--9`, Bild per CSS: `assets/images/eigene/banner.jpg`, Bagger bei Sonnenaufgang, 350px hoch, `background-size: cover`)
 - **Profilkarte**: Foto (190×190), Name, Berufsbezeichnung, Social-Icons,
   Infos (Email, Birthday, Phone, Location) – ca. Zeile 30–95
 - **Tab-Navigation** (vertikal Desktop / unten fixiert auf Mobile):
@@ -47,6 +47,13 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 5. Kontaktformular: `action="https://formspree.io/f/DEINE-FORM-ID"` mit Lucas Formspree-ID ersetzen.
    Feldnamen: `contact-name`, `contact-phone`, `email` (als Reply-To), `subject`, `contact-message`.
 6. `_vorlagen/` löschen, nicht benötigte Bilder/Assets entfernen (Repo schlank halten).
+
+## Design-Entscheidungen
+- Luca bewirbt sich als **Baumaschinenmechaniker** – Bildsprache und Texte darauf ausrichten.
+- **Akzentfarbe: Orange `#d95f0e`** (statt Template-Pink `#ff014f`), passend zum Banner.
+  Definiert in `assets/css/style.css` unter `:root` (`--color-primary`, `--color-subtitle: #c4530b`,
+  `--gradient-red-hover: #d95f0e → #a8440a`). Neue Elemente immer mit diesen Variablen einfärben.
+- Profilbild: `assets/images/eigene/profil.jpg` (400×400, grauer Kachelhintergrund).
 
 ## Regeln
 - **Responsive erhalten**: Nach Änderungen immer Desktop (1440px) und Mobile (390px) prüfen.
