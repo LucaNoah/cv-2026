@@ -47,3 +47,7 @@
     padding-bottom: 110px;
   }
 }
+
+/* Resume-Timeline: Datum im Badge nicht umbrechen (z. B. "08/2024 – heute") */
+.resume-single-list .heading .date-of-time span { white-space: nowrap; }
+.resume-single-list .heading .title { flex: 1 1 auto; min-width: 0; }
