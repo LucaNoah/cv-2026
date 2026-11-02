@@ -70,12 +70,12 @@
                     headers: { 'Accept': 'application/json' },
                     data: _self.serialize()
                 }).done(function () {
-                    _self.find('.rn-btn').after('<div class="success-msg"><p>Danke! Deine Nachricht wurde gesendet.</p></div>');
+                    _self.find('.rn-btn').after('<div class="success-msg"><p>Vielen Dank! Ihre Nachricht wurde gesendet.</p></div>');
                     _self.find('input,textarea').val('');
                     $('.form-group').removeClass('focused');
                     setTimeout(function () { $('.success-msg').fadeOut('slow'); }, 5000);
                 }).fail(function (xhr) {
-                    var msg = 'Die Nachricht konnte nicht gesendet werden. Bitte versuche es später nochmals.';
+                    var msg = 'Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später nochmals.';
                     if (xhr.responseJSON && xhr.responseJSON.errors) {
                         msg = xhr.responseJSON.errors.map(function (er) { return er.message; }).join(' ');
                     }

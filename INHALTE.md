@@ -67,7 +67,7 @@ Pro Projekt: Titel, Kategorie, kurze Beschreibung, Link, Bild (Dateiname in `ass
 - brauche ich: ja / nein
 
 ## Kontakt
-- **Formspree-ID:** (von https://formspree.io, z. B. `xyzabcd`)
+- **Formspree-ID:** `mdeepngj`
 - **Text über dem Formular:**
 
 ## Bilder (in `assets/images/eigene/` ablegen)
