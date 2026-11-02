@@ -5,16 +5,16 @@
 > Stichworte reichen, Claude kann daraus schöne Texte formulieren (sag das dann dazu).
 
 ## Allgemein
-- **Sprache der Website:** Deutsch / Englisch / beides
+- **Sprache der Website:** Deutsch
 - **Name:** Luca Gfeller
 - **Berufsbezeichnung / Untertitel:** (z. B. „Informatiker EFZ in Ausbildung“)
 - **Kurzer Satz für Google (Meta-Description):**
 
 ## Profilkarte
-- **E-Mail (öffentlich):**
-- **Telefon (öffentlich? ja/nein):**
-- **Geburtsdatum (öffentlich? ja/nein):**
-- **Wohnort:**
+- **E-Mail (öffentlich):** lucanoahgfeller@gmail.com
+- **Telefon (öffentlich? ja/nein):** ja – +41 78 336 09 07
+- **Geburtsdatum (öffentlich? ja/nein):** ja – 08.05.1998
+- **Wohnort:** Küssnacht, Schweiz
 - **LinkedIn:**
 - **GitHub:**
 - **Instagram / weitere:**
