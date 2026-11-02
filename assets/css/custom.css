@@ -60,3 +60,6 @@
 /* Profilkarte: E-Mail- und Telefon-Links wie normaler Text darstellen */
 .rn-header-content li a { color: inherit; }
 .rn-header-content li a:hover { color: var(--color-primary); }
+
+/* Tab-Navigation: kleiner Abstand zwischen den Buttons (sonst kleben aktiver und Hover-Button aneinander) */
+.tab-content-wrapper .tab-navigation-button.tab-smlg { gap: 10px; }
