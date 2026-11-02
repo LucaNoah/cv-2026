@@ -51,3 +51,8 @@
 /* Resume-Timeline: Datum im Badge nicht umbrechen (z. B. "08/2024 – heute") */
 .resume-single-list .heading .date-of-time span { white-space: nowrap; }
 .resume-single-list .heading .title { flex: 1 1 auto; min-width: 0; }
+
+/* PDF-Download-Button über der Resume-Timeline */
+.cv-download a.rn-btn { display: inline-flex; align-items: center; gap: 8px; }
+.cv-download a.rn-btn svg { width: 18px; height: 18px; position: relative; z-index: 2; }
+.cv-download a.rn-btn span { position: relative; z-index: 2; }
